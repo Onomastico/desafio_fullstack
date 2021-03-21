@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types'
+import {environment} from '../environments/environment';
 import styles from './app.module.css';
 import ResultPage from './result-page/result-page'
 
-const APIURL = 'http://localhost:3333/products';
+const APIURL = environment.apiUrl;
 
 export function App() {
   const [products, setProducts] = useState([]);

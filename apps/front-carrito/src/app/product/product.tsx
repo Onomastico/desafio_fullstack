@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import { IProducts } from '@nx-desafio-wallmart/api-interface';
+import { IProducts } from '@nx-desafio-wallmart/api-interface';
 import './styles.css'
 
 const Product = ({brand, description, price, discount, discountPercent, image}) => {
