@@ -1,0 +1,8 @@
+-  request:
+      url: ^/products
+      method: [GET, POST]
+   response:
+    - status: 200
+      headers:
+         content-type: application/json
+      file: ./find_query.json

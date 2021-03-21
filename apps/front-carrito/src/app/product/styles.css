@@ -1,0 +1,49 @@
+.product {
+    display: inline-block;
+    max-width: 15rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+  
+.product > div {
+    display: flex;
+    align-items: center;
+}
+
+.product > div > span:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: dimgray;
+}
+  
+.product > div > span:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;
+    background-color: orangered;
+    color: white;
+    border-radius: 16px;
+    width: 2.5rem;
+    height: 1.5rem;
+    font-weight: bold;
+}
+
+/* .product  > span {
+    text-decoration: line-through;
+    font-size: .8rem;
+}
+   */
+
+.product button {
+    display: block;
+    color: white;
+    background-color: green;
+    margin: 0 auto;
+}

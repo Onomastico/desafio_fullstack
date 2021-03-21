@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    background-color: #0879c9;
+    padding-left: 5rem;
+    align-items: center;
+}
+
+header .logo {
+    display: inline-block;
+    background-image: url(../assets/logo-walmartchile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 9.5rem;
+    height: 3.2rem;
+}

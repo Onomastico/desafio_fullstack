@@ -1,0 +1,28 @@
+{
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "affected": { "defaultBase": "master" },
+  "npmScope": "nx-desafio-wallmart",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+    }
+  },
+  "projects": {
+    "front-carrito": { "tags": [] },
+    "front-carrito-e2e": {
+      "tags": [],
+      "implicitDependencies": ["front-carrito"]
+    },
+    "bff-carrito": { "tags": [] },
+    "ms-carrito": { "tags": [] },
+    "api-interface": { "tags": [] }
+  }
+}
