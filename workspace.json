@@ -30,7 +30,8 @@
             ],
             "styles": ["apps/front-carrito/src/styles.css"],
             "scripts": [],
-            "webpackConfig": "@nrwl/react/plugins/webpack"
+            "webpackConfig": "@nrwl/react/plugins/webpack",
+            "generatePackageJson": true
           },
           "configurations": {
             "production": {
@@ -122,7 +123,8 @@
             "outputPath": "dist/apps/bff-carrito",
             "main": "apps/bff-carrito/src/main.ts",
             "tsConfig": "apps/bff-carrito/tsconfig.app.json",
-            "assets": ["apps/bff-carrito/src/assets"]
+            "assets": ["apps/bff-carrito/src/assets"],
+            "generatePackageJson": true
           },
           "configurations": {
             "production": {
@@ -169,7 +171,8 @@
             "outputPath": "dist/apps/ms-carrito",
             "main": "apps/ms-carrito/src/main.ts",
             "tsConfig": "apps/ms-carrito/tsconfig.app.json",
-            "assets": ["apps/ms-carrito/src/assets"]
+            "assets": ["apps/ms-carrito/src/assets"],
+            "generatePackageJson": true
           },
           "configurations": {
             "production": {
